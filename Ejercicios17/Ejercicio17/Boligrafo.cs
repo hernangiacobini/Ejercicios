@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,6 +43,10 @@ namespace Ejercicio17
                 SetTinta(nivelTinta);
                 return true;
             }
+            else
+            {
+        Console.WriteLine("El valor supera la cantidad de tinta que posee el boligrafo");
+            }
             return false;
         }
 
@@ -52,7 +56,10 @@ namespace Ejercicio17
             short tintaNecesaria = (short)(cantidadTintaMaxima - tintaActual);
             SetTinta(tintaNecesaria);
         }
-
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="tinta"></param>
         private void SetTinta(short tinta)
         {
             
