@@ -37,8 +37,7 @@ namespace Geometria
     public Rectangulo(Punto vertice1, Punto vertice3)
     {
       this.vertice1 = vertice1;
-      this.vertice3 = vertice3;
-      
+      this.vertice3 = vertice3;      
     }
   }
 }
